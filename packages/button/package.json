@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "@will-ui-kit/button",
   "private": false,
   "description": "Modular and customizable Design UI components for the web",
   "version": "1.0.4",
@@ -15,7 +15,7 @@
   "author": "João Willamy willamyse@gmail.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joaowillamy/react-storybook-jest-lerna.git",
+    "url": "git+https://github.com/joaowillamy/react-storybook-jest-lerna.git",
     "directory": "packages/button"
   },
   "main": "lib/index.js",
@@ -31,5 +31,13 @@
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0",
     "styled-components": "^5.0.0"
+  },
+  "homepage": "https://github.com/joaowillamy/react-storybook-jest-lerna#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
