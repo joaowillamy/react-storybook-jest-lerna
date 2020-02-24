@@ -1,4 +1,4 @@
-# Monorepo with Lerna & Yarn Workspaces
+# Monorepo with Lerna to Desing System
 
 > A Monorepo with multiple packages and a shared build, test, and release process.
 
