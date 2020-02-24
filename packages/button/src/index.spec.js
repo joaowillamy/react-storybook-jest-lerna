@@ -5,8 +5,9 @@ import 'jest-styled-components';
 import Button from '.';
 
 describe('Button', () => {
-    test('renders correctly', () => {
-        const tree = renderer.create(<Button>{'Test'}</Button>).toJSON();
-        expect(tree).toMatchSnapshot();
-    });
+  test('renders correctly', () => {
+    const tree = renderer.create(<Button>{'Test'}</Button>).toJSON();
+
+    expect(tree).toMatchSnapshot();
+  });
 });

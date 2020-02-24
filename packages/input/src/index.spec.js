@@ -5,8 +5,9 @@ import 'jest-styled-components';
 import Input from '.';
 
 describe('Input', () => {
-    test('renders correctly', () => {
-        const tree = renderer.create(<Input />).toJSON();
-        expect(tree).toMatchSnapshot();
-    });
+  test('renders correctly', () => {
+    const tree = renderer.create(<Input />).toJSON();
+
+    expect(tree).toMatchSnapshot();
+  });
 });
