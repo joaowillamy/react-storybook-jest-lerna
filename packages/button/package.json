@@ -2,7 +2,7 @@
   "name": "button",
   "private": false,
   "description": "Modular and customizable Design UI components for the web",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "keywords": [
     "react components",
