@@ -2,7 +2,7 @@
   "name": "@will-ui-kit/button",
   "description": "Modular and customizable Design UI components for the web",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "scripts": {
     "test": "jest",
