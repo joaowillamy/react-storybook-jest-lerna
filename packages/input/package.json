@@ -1,16 +1,18 @@
 {
-    "name": "input",
-    "version": "1.0.1",
-    "main": "lib/index.js",
-    "module": "src/index.js",
-    "dependencies": {
-        "react": "16.8.5",
-        "react-dom": "16.8.5",
-        "styled-components": "5.0.1"
-    },
-    "peerDependencies": {
-        "react": "^15.0.0 || ^16.0.0",
-        "react-dom": "^15.0.0 || ^16.0.0",
-        "styled-components": "^5.0.0"
-    }
+  "name": "input",
+  "version": "1.0.2",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "dependencies": {
+    "prop-types": "15.7.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "styled-components": "5.0.1",
+    "theme": "1.0.0"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "styled-components": "^5.0.0"
+  }
 }
