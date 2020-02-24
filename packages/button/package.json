@@ -1,6 +1,17 @@
 {
   "name": "button",
+  "description": "Modular and customizable Design UI components for the web",
   "version": "1.0.2",
+  "license": "MIT",
+  "keywords": [
+    "react components",
+    "design system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaowillamy/react-storybook-jest-lerna.git",
+    "directory": "packages/button"
+  },
   "main": "lib/index.js",
   "module": "src/index.js",
   "dependencies": {
