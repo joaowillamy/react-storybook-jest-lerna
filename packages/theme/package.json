@@ -1,5 +1,5 @@
 {
-  "name": "theme",
+  "name": "@will-ui-kit/theme",
   "version": "1.0.1",
   "main": "lib/index.js",
   "module": "src/index.js"

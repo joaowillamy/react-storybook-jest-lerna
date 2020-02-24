@@ -1,5 +1,5 @@
 {
-  "name": "input",
+  "name": "@will-ui-kit/input",
   "version": "1.0.3",
   "main": "lib/index.js",
   "module": "src/index.js",

@@ -1,25 +1,33 @@
 {
   "name": "@will-ui-kit/button",
-  "private": false,
   "description": "Modular and customizable Design UI components for the web",
+  "private": false,
   "version": "1.0.4",
   "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "publish": "npm publish --access public"
+  },
   "keywords": [
     "react components",
     "design system"
   ],
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "bugs": {
     "url": "https://github.com/joaowillamy/react-storybook-jest-lerna/issues",
     "email": "willamyse@gmail.com"
   },
   "author": "João Willamy willamyse@gmail.com",
+  "homepage": "https://github.com/joaowillamy/react-storybook-jest-lerna#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joaowillamy/react-storybook-jest-lerna.git",
     "directory": "packages/button"
   },
-  "main": "lib/index.js",
-  "module": "src/index.js",
   "dependencies": {
     "prop-types": "15.7.2",
     "react": "16.12.0",
@@ -32,12 +40,10 @@
     "react-dom": "^15.0.0 || ^16.0.0",
     "styled-components": "^5.0.0"
   },
-  "homepage": "https://github.com/joaowillamy/react-storybook-jest-lerna#readme",
-  "directories": {
-    "lib": "lib"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "jest-haste-map": "^25.1.0",
+    "jest-resolve": "^25.1.0",
+    "jest-styled-components": "^7.0.0"
   }
 }
