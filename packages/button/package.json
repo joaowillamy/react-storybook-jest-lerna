@@ -1,5 +1,6 @@
 {
   "name": "button",
+  "private": false,
   "description": "Modular and customizable Design UI components for the web",
   "version": "1.0.3",
   "license": "MIT",
@@ -7,6 +8,11 @@
     "react components",
     "design system"
   ],
+  "bugs": {
+    "url": "https://github.com/joaowillamy/react-storybook-jest-lerna/issues",
+    "email": "willamyse@gmail.com"
+  },
+  "author": "João Willamy willamyse@gmail.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/joaowillamy/react-storybook-jest-lerna.git",
