@@ -4,10 +4,6 @@
   "description": "Modular and customizable Design UI components for the web",
   "private": false,
   "license": "MIT",
-  "scripts": {
-    "test": "jest",
-    "publish": "npm publish --access public"
-  },
   "keywords": [
     "react components",
     "design system"
@@ -38,11 +34,5 @@
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0",
     "styled-components": "^5.0.0"
-  },
-  "devDependencies": {
-    "jest": "^25.1.0",
-    "jest-haste-map": "^25.1.0",
-    "jest-resolve": "^25.1.0",
-    "jest-styled-components": "^7.0.0"
   }
 }

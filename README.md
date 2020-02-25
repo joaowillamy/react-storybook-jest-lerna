@@ -41,3 +41,7 @@ All formatting and linting should be taken care of for you using [stylelint](htt
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 - [webstorm-styled-components](https://github.com/styled-components/webstorm-styled-components)
 - [Other IDEs](https://www.styled-components.com/docs/tooling#syntax-highlighting)
+
+## Publish
+
+- Run `npm publish --access public`
