@@ -1,6 +1,6 @@
 import styled, {css} from 'styled-components';
 import React from 'react';
-import {spacing} from '@will-ui-kit/theme';
+import {spacing} from '@joaowillamy-test-quero/theme';
 import PropTypes from 'prop-types';
 
 const StyledContainer = styled.div`
