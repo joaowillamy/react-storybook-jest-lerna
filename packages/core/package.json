@@ -22,10 +22,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joaowillamy/react-storybook-jest-lerna.git",
-    "directory": "packages/button"
+    "directory": "packages/core"
   },
   "dependencies": {
-    "@will-ui-kit/theme": "^1.0.9",
     "prop-types": "15.7.2",
     "react": "16.12.0",
     "react-dom": "16.12.0",

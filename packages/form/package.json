@@ -1,8 +1,8 @@
 {
-  "name": "@will-ui-kit/button",
+  "name": "@joaowillamy-test-quero/input",
+  "version": "1.0.7",
   "description": "Modular and customizable Design UI components for the web",
   "private": false,
-  "version": "1.0.9",
   "license": "MIT",
   "keywords": [
     "react components",
@@ -22,10 +22,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joaowillamy/react-storybook-jest-lerna.git",
-    "directory": "packages/button"
+    "directory": "packages/form"
   },
   "dependencies": {
-    "@will-ui-kit/theme": "^1.0.9",
     "prop-types": "15.7.2",
     "react": "16.12.0",
     "react-dom": "16.12.0",

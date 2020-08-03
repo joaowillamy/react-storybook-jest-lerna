@@ -59,7 +59,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   disabled: false,
-  variant: APPEARANCES.PRIMARY
+  variant: APPEARANCES.SECONDARY
 };
 
 export default Button;
