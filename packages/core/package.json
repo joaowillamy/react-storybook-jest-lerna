@@ -2,7 +2,7 @@
   "name": "@joaowillamy-test-quero/core",
   "description": "Modular and customizable Design UI components for the web",
   "private": false,
-  "version": "1.0.9",
+  "version": "1.0.10",
   "license": "MIT",
   "keywords": [
     "react components",
