@@ -1,4 +1,5 @@
 import React from 'react';
+import { ThemeProvider } from '@joaowillamy-test-quero/theme';
 
 import Button from '.';
 
@@ -7,6 +8,20 @@ export default {
   title: 'Core|Button'
 };
 
-export const primary = () => <Button>{'Button'}</Button>;
+export const primary = () => (
+  <ThemeProvider>
+    <Button>{'Button'}</Button>
+  </ThemeProvider>
+);
 
-export const secondary = () => <Button variant="secondary">{'Button'}</Button>;
+export const secondary = () => (
+  <ThemeProvider>
+    <Button variant="secondary">{'Button'}</Button>
+  </ThemeProvider>
+);
+
+export const disabled = () => (
+  <ThemeProvider>
+    <Button disabled>{'Button'}</Button>
+  </ThemeProvider>
+);
