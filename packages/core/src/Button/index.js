@@ -1,6 +1,6 @@
-import styled, {css} from 'styled-components';
+import styled, { css } from 'styled-components';
 import React from 'react';
-import {spacing} from '@joaowillamy-test-quero/theme';
+// import {spacing} from '@joaowillamy-test-quero/theme';
 import PropTypes from 'prop-types';
 
 const APPEARANCES = {
@@ -21,7 +21,7 @@ const StyledButton = styled.button`
   min-width: 200px;
   outline: none;
   overflow: hidden;
-  padding: 0 ${spacing.extraLarge};
+  /* padding: 0 ${spacing.extraLarge}; */
   text-align: center;
   text-decoration: none;
   text-transform: capitalize;

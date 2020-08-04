@@ -4,7 +4,7 @@ import Button from '.';
 
 export default {
   component: Button,
-  title: 'Design System|Button'
+  title: 'Core|Button'
 };
 
 export const primary = () => <Button>{'Button'}</Button>;

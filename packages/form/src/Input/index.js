@@ -1,6 +1,6 @@
-import styled, {css} from 'styled-components';
+import styled, { css } from 'styled-components';
 import React from 'react';
-import {spacing} from '@joaowillamy-test-quero/theme';
+// import { spacing } from '@joaowillamy-test-quero/theme';
 import PropTypes from 'prop-types';
 
 const StyledContainer = styled.div`
@@ -27,7 +27,7 @@ const StyledInput = styled.input`
   height: 40px;
   line-height: 26px;
   padding: 10px;
-  margin: ${spacing.extraSmall} 0 ${spacing.small};
+  /* margin: ${spacing.extraSmall} 0 ${spacing.small}; */
   width: 100%;
 
   ::placeholder {
@@ -43,7 +43,7 @@ const StyledInput = styled.input`
     `}
 `;
 
-const Input = ({disabled, id, label, placeholder}) => (
+const Input = ({ disabled, id, label, placeholder }) => (
   <StyledContainer>
     <StyledLabel htmlFor={id}>{label}</StyledLabel>
     <StyledInput disabled={disabled} id={id} placeholder={placeholder} type="text" />

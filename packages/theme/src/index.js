@@ -1,9 +1,3 @@
-/* eslint-disable sort-keys */
-export const spacing = {
-  extraLarge: '32px',
-  large: '24px',
-  medium: '16px',
-  small: '8px',
-  extraSmall: '4px'
-};
-/* eslint-enable */
+export { default as ThemeProvider } from './ThemeProvider';
+export { default as DEFAULT_THEME } from './theme';
+export { GlobalStyles } from './GlobalStyles';

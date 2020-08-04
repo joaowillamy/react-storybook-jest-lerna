@@ -856,6 +856,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.10.5":
+  version "7.11.0"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@babel%2fruntime/-/runtime-7.11.0.tgz#f10245877042a815e07f7e693faff0ae9d3a2aac"
+  integrity sha512-qArkXsjJq7H+T86WrIFV0Fnu/tNOkZ4cgXmjkzAu3b/58D5mFIO8JH/y77t7C9q0OdDRdh9s7Ue5GasYssxtXw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/standalone@^7.4.5":
   version "7.8.4"
   resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.8.4.tgz#c50ed8a93c12141e638ea87ca4cdf6b4665a0bac"
@@ -957,6 +964,13 @@
   version "0.8.6"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.6.tgz#4757646f0a58e9dec614c47c838e7147d88c263c"
   integrity sha512-mnZMho3Sq8BfzkYYRVc8ilQTnc8U02Ytp6J1AwM6taQStZ3AhsEJBX2LzhA/LJirNCwM2VtHL3VFIZ+sNJUgUQ==
+  dependencies:
+    "@emotion/memoize" "0.7.4"
+
+"@emotion/is-prop-valid@^0.8.7":
+  version "0.8.8"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@emotion%2fis-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
+  integrity sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==
   dependencies:
     "@emotion/memoize" "0.7.4"
 
@@ -2712,6 +2726,278 @@
     store2 "^2.7.1"
     telejson "^3.2.0"
     util-deprecate "^1.0.2"
+
+"@styled-icons/bootstrap@^10.14.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fbootstrap/-/bootstrap-10.14.1.tgz#380f5f6f81361e7167d0a3ded1361307c2c195e6"
+  integrity sha512-SKgBYBmN49aa3g3iFXLZzZ5kMO3exWkjTjOn8C8ykju4cf1lKiFfdfDz+QI/gs14EO9STrCjrEriOG8hEw6S+g==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/boxicons-logos@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fboxicons-logos/-/boxicons-logos-10.14.1.tgz#988465e385d944227ec9c850f2bf07cc336ad971"
+  integrity sha512-VULtSJGCSCAnN12A6KM8uYNhks9et8YflLF11jeEBu9s8hM1QJPHzSJ0kGJI2hXMUXJ9qEIbXlrALFh4MjtIOQ==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/boxicons-regular@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fboxicons-regular/-/boxicons-regular-10.14.1.tgz#1cc914e16ba0dc6a9bcf481f9f78e5f71ff5ea74"
+  integrity sha512-6DM7lF8QHYvBm+iFIgyq3PNbE7dC5ypLTirSSrb8lnEagHRHOjpxsC7zxaUNaloh/wkvqDK0SKDGVZGmSCaNRA==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/boxicons-solid@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fboxicons-solid/-/boxicons-solid-10.14.1.tgz#06858dc920fb1f06ef6b40f6770872965e8082d8"
+  integrity sha512-CLpFekxXGe/eg3/dpQK6Pr+iNnO7K0XOHIEWkd+w0SnntceL16ibnh2b0T+6is0NEraul9z/eoWq+pHBP/siMA==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/crypto@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fcrypto/-/crypto-10.14.1.tgz#25c36580a86cb0b4939475dbae7c3bc70f927d63"
+  integrity sha512-r1ds9V+7QbP5XUzO97lxx9LzskgD8/ovdA/a7TTsfTM5ifjSyIMwHekwtr5Er1jsnHbk58To8wLahpK+ZgR+rg==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/entypo-social@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fentypo-social/-/entypo-social-10.14.1.tgz#b1546dada88dea095077bd852b57569a5ec32452"
+  integrity sha512-+ZpsVnLdnBDwsK5ro2s9gdYXZz/WJRQrFgl/6v3C7bMUyBZc8LYD5o4+302BAO2lS0bP7PBEL1gzLaiuiIqMsw==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/entypo@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fentypo/-/entypo-10.14.1.tgz#4febe77db4778a14a593b76a3011a1a45f7f6050"
+  integrity sha512-k1i6daFyQUzWe8cJ+azs/T7nJYmtX8j3IzYyPECYwxl0ADli51xqTf45aMXbbnBu4Zu+cxwIimRUECuMtS+ZBw==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/evaicons-outline@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fevaicons-outline/-/evaicons-outline-10.14.1.tgz#72a24da39a9c61e4f89c1c496172f871ede4d311"
+  integrity sha512-k/LhUCdwenQkslHiqVClJVNZTbrEX124TubrR//VpSDbQW2n/0+KuO75SjkMrvm+7LvkF1vQOot0o/mmkAIS4g==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/evaicons-solid@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fevaicons-solid/-/evaicons-solid-10.14.1.tgz#ee96d582f4e77d7abafd99a11dcf63418f0f8952"
+  integrity sha512-/KKR9bqf7sM/KA9fG1asLFd2k1CHgZw4IcP1EK6IjprND1Or5p0ZdA2hH8D3oe0cW4Ysx4maX0bluzbPNHomDg==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/evil@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fevil/-/evil-10.14.1.tgz#2c6a7e75f89da8ac12c95477baa436d3a8ec9bf7"
+  integrity sha512-utx4PLMs/cpf+WsMia7dROvXz16QCTuOzW9Ls//bhCY3xbqhpoqejP7p2f4ewGhLC2hKotFUD8llz6lcabqGow==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/fa-brands@^10.10.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2ffa-brands/-/fa-brands-10.14.1.tgz#36fd2d2419758c226cb5ce7e5d24d34fcbd6afbc"
+  integrity sha512-am2sm5mzXr0FkSEpO6oV6Gk1gWSJsEF3RGjRO1qgQsd84JZi8MhlZEmZrLhVRA5c9yUolzLvPLif/jiKpz5ofw==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/fa-regular@^10.10.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2ffa-regular/-/fa-regular-10.14.1.tgz#7e6c0a4fb8c5dab6cde8907a714f87261539d1c1"
+  integrity sha512-ZofbqjPTLY6eDskg1fHaBKXy+eDLnIZ77yb7RMTcYYkyAJkQ7z67WNwuZPgNOUEgNXdnMNcOQhmmYoBY19PHTQ==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/fa-solid@^10.10.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2ffa-solid/-/fa-solid-10.14.1.tgz#d17952937906a1b6b93a0dfc9b620736c28e63f1"
+  integrity sha512-uSHunuZy1ZkG9lfVVH/f2MWzyvNgkR+l6c/OhVMxFflmqsDhzz+SmAuP9MMWmr+wI7P9+wMwi+doJ11eDaAGOg==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/feather@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2ffeather/-/feather-10.14.1.tgz#088f7358c1ddd3aa1a25eddd3b1d2b052c182f89"
+  integrity sha512-856PVNH/OGEbYXb8gJWujKKxsanp4xHW0pSXHiWPOW3ecNNuc/RM89v1sKZhwd6kltYMWZIaQAQ+ankn++J+UA==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/foundation@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2ffoundation/-/foundation-10.14.1.tgz#85c6f2e1dc91d9ddba1a60bd451e7cad17227ede"
+  integrity sha512-4zHiAH+JgsyATtoNhYokZkTCfi+adECDNKEVHp1Jp0hLC/H37oUk+GW1mLwoYXjuLLuwZg/9HOE9RLOAxHSdsg==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/heroicons-outline@^10.12.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fheroicons-outline/-/heroicons-outline-10.14.1.tgz#d39486f97f52c7b19936e29e3c2e654f074f87f1"
+  integrity sha512-Bm7qxKOKQZ5/+PGZXQQfAPvq5MxYzpTIbEPGIebxx9eatRXVZij/N9iu3ipJ1Apli4f2rpKx3jWhvBDveLZOJQ==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/heroicons-solid@^10.12.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fheroicons-solid/-/heroicons-solid-10.14.1.tgz#943ed21049f102f30b152f15f9441533abfdaeeb"
+  integrity sha512-4xl5aJZdrdF6C65yuGVMrGUP3z9ky4IR5hcjnl8PzlyOb64TOsLFmPrJLRXNZke0vMFX52xJGnUCg5JqQTM3aQ==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/icomoon@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2ficomoon/-/icomoon-10.14.1.tgz#14e2fa84e86903ae217a6078efae226cc0b70c8b"
+  integrity sha512-GQggOADYz9kXIFnOdqjsx6RrO5Ybdv0LK9MNbTb0jMFN0Yfb3h5qe2jc+XkEtaJoBveL2yKcVUNsP+XHW+Fb0g==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/ionicons-outline@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fionicons-outline/-/ionicons-outline-10.14.1.tgz#ea8c3ca1fd70aa23b438db334d3c4d7ce51ec22c"
+  integrity sha512-8y9/8OC5kV3UuFR5I+S680+G121+fcwbc8LKbnboU/tuEKIS4PWRV2IPLAFKaqPajoHI2hD0+QbeMm1/WaEIWw==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/ionicons-sharp@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fionicons-sharp/-/ionicons-sharp-10.14.1.tgz#01150079376c6c4f6041cfe3fa306451bb855006"
+  integrity sha512-lEu0HvbNGRqrvsBiP/coHYmFwMWqHnAUvsu+Iy+tDSWl9aVr6fdeuvDAVBvZ2v0cqZMQ8I06nk3IbT/hcwy9lA==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/ionicons-solid@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fionicons-solid/-/ionicons-solid-10.14.1.tgz#0a3e0ebf8da8fc5299d6c1b35d7e02657f4b34d5"
+  integrity sha512-1U8b6sTpOO0LCN5PJBh17zJnu46zgMbNSuKOk/HrCPqE5pt5qyMH08yvzKZkVdYbkwvwSm4N0GU/nT6MDJry/w==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/material-outlined@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fmaterial-outlined/-/material-outlined-10.14.1.tgz#aa7ceab61289680451e46e0f7832a7791c35df15"
+  integrity sha512-We+DiqgcfeZxHOc+Xn06cXU8hYOpf5LjInr7RjwSpckQmxTrP062IMQEDQVGL8VxZNXj5Esvy2bXGIV1h03B1Q==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/material-rounded@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fmaterial-rounded/-/material-rounded-10.14.1.tgz#f3ae19727b40e5678c04edd4fc397238666c7187"
+  integrity sha512-2geSjDKsKFtcTUBHEb0ojRB7RX51x81EOd/Lsgr51aoUQQMEUjXYeywTe/JqSrFPN84mArFow997ODKJJgucqA==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/material-sharp@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fmaterial-sharp/-/material-sharp-10.14.1.tgz#8d7edf278e1dcf1fcbe24db03e8f41bf9da0a569"
+  integrity sha512-9zz/RiFmKHI++y5LR+leQFe1reRJqEJRjoXuZKkk1YCpa0/yaCsb63YAfIJekgWexLmVFBOqN81oKAM4T6oTYQ==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/material-twotone@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fmaterial-twotone/-/material-twotone-10.14.1.tgz#b5aafed946855d892a80e688a6458cedc29266da"
+  integrity sha512-MedXAiAM+cFlMODiaRi1CL00x4QRIec6eJrLWkOCXUAbOHU+4fiJVBYEd5gVHgu0X/XZtFZ2odIpB5689FKlrQ==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/material@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fmaterial/-/material-10.14.1.tgz#60820dde6fc0378b79f1dd2d06bab3c90c9581ba"
+  integrity sha512-8kBh+937rdt7MqnmbaGJnpOxbg9+G+d9CNR7EounGPZE9Jr+zQ42pUGxkg7moJz+q5P3f8gnd3PTq+uMEhzYMw==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/octicons@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2focticons/-/octicons-10.14.1.tgz#40d0ed5ce04eb3f7e36d32fdafe9a07cc7ac6802"
+  integrity sha512-Pldkg7cj7kBV09L0V7DNXGuLUyBMhnyKgGHIbkjwW1W3tBOMeIc/4+azzxo71rueKamJyWm3E0CqbuGBlKT1BQ==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/open-iconic@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fopen-iconic/-/open-iconic-10.14.1.tgz#65570900bcf3d626f24617a892521bcc4b671acc"
+  integrity sha512-DR+laxYttt+1YFX8Txp1dDE+dDK4IPH0KnY0yOmYu90mSykRzQpsP3nTa9G024Qa4DZ9bGXuguqduRtrqYnqnw==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/remix-fill@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fremix-fill/-/remix-fill-10.14.1.tgz#d22836e4e9d3d7fac01e25fdd499ba36c4ad6171"
+  integrity sha512-wVaEzN2Ftw0Ll5Fx1ofmR8RkXWFNB6SokTPmDxUCS7FHs15VMCBOwcfHirTolGKWvYsxzHys0ZIpCFiggjDdJQ==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/remix-line@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fremix-line/-/remix-line-10.14.1.tgz#4bde722603ae9f5bdcf760a65dff37dc4bf9abe9"
+  integrity sha512-gq+bhbfHNFhwCH7JJvovSkDe5Za+cYHw2kjwN3gOt2fpCXIQXtyMn62etTvVyy0+iPeEgbJMuHDTr7f+SvpOYg==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/simple-icons@^10.13.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fsimple-icons/-/simple-icons-10.14.1.tgz#da9be7be86056d78eb4cfd4a3ac85ece24000186"
+  integrity sha512-ht+HvnuXZb0slt0Dy8EBNyb5qlRDcHz5DBZPt6IMDz2c7t701V3+CHIzPTRIF2eTixdz155dRMfMyglhlAMqzw==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/styled-icon@^10.6.0":
+  version "10.6.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fstyled-icon/-/styled-icon-10.6.1.tgz#1314236c2f10698f054c17151efb1a035b6aac6e"
+  integrity sha512-tiy2RObJko/uluOWZDiQbuWeDOcRmuJw9EZnOiO4DPH7fQW7puOFXmkCV5CnUDWDlyYttwBmoI0lSVSX9Tsgow==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@emotion/is-prop-valid" "^0.8.7"
+
+"@styled-icons/typicons@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2ftypicons/-/typicons-10.14.1.tgz#12b4ad7b666dcdd7e95f54603cab16aa89f8c414"
+  integrity sha512-pvdAcJFEqWdDhbfFwsORwDWTIBqizj6MtpQeUiwy44uaw5Y/uZ6who+KKOkwh9zZYZLMSDkrDdc1+rI8zNs5lQ==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/zondicons@^10.6.0":
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/@styled-icons%2fzondicons/-/zondicons-10.14.1.tgz#b72d0d8866d5c02b11159eb03aa1586639eb2082"
+  integrity sha512-2vVah52q6dADGjrU1BHwQ58XqibiNLo9V/bVZ/nlbO//ticRR5tIDrMv9UbakcNfwAr7bJah+3XxNL8kejGs1w==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
@@ -13381,6 +13667,11 @@ regenerator-runtime@^0.13.2, regenerator-runtime@^0.13.3:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
   integrity sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==
 
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
+
 regenerator-transform@^0.14.0:
   version "0.14.1"
   resolved "https://registry.yarnpkg.com/regenerator-transform/-/regenerator-transform-0.14.1.tgz#3b2fce4e1ab7732c08f665dfdb314749c7ddd2fb"
@@ -14787,6 +15078,52 @@ styled-components@5.0.1, styled-components@^5.0.1:
     hoist-non-react-statics "^3.0.0"
     shallowequal "^1.1.0"
     supports-color "^5.5.0"
+
+styled-icons@^10.14.1:
+  version "10.14.1"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/styled-icons/-/styled-icons-10.14.1.tgz#9f45610db21405e3b1ec314935157afd14f4507b"
+  integrity sha512-UpAX+t0NVXw1fG6e2aZ86w7L8jR+6oaVmsSaPWbepL+EVgmyzAoyIYs2LMZBcQMdSgBHD+zUjbckP7cIKToK4w==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/bootstrap" "^10.14.0"
+    "@styled-icons/boxicons-logos" "^10.6.0"
+    "@styled-icons/boxicons-regular" "^10.6.0"
+    "@styled-icons/boxicons-solid" "^10.6.0"
+    "@styled-icons/crypto" "^10.6.0"
+    "@styled-icons/entypo" "^10.6.0"
+    "@styled-icons/entypo-social" "^10.6.0"
+    "@styled-icons/evaicons-outline" "^10.6.0"
+    "@styled-icons/evaicons-solid" "^10.6.0"
+    "@styled-icons/evil" "^10.6.0"
+    "@styled-icons/fa-brands" "^10.10.0"
+    "@styled-icons/fa-regular" "^10.10.0"
+    "@styled-icons/fa-solid" "^10.10.0"
+    "@styled-icons/feather" "^10.6.0"
+    "@styled-icons/foundation" "^10.6.0"
+    "@styled-icons/heroicons-outline" "^10.12.0"
+    "@styled-icons/heroicons-solid" "^10.12.0"
+    "@styled-icons/icomoon" "^10.6.0"
+    "@styled-icons/ionicons-outline" "^10.6.0"
+    "@styled-icons/ionicons-sharp" "^10.6.0"
+    "@styled-icons/ionicons-solid" "^10.6.0"
+    "@styled-icons/material" "^10.6.0"
+    "@styled-icons/material-outlined" "^10.6.0"
+    "@styled-icons/material-rounded" "^10.6.0"
+    "@styled-icons/material-sharp" "^10.6.0"
+    "@styled-icons/material-twotone" "^10.6.0"
+    "@styled-icons/octicons" "^10.6.0"
+    "@styled-icons/open-iconic" "^10.6.0"
+    "@styled-icons/remix-fill" "^10.6.0"
+    "@styled-icons/remix-line" "^10.6.0"
+    "@styled-icons/simple-icons" "^10.13.0"
+    "@styled-icons/styled-icon" "^10.6.0"
+    "@styled-icons/typicons" "^10.6.0"
+    "@styled-icons/zondicons" "^10.6.0"
+
+styled-media-query@^2.1.2:
+  version "2.1.2"
+  resolved "http://ec2-52-72-203-39.compute-1.amazonaws.com:4873/styled-media-query/-/styled-media-query-2.1.2.tgz#d59e8d91bc4bcff210dc511bdcecedf16eb2c5b7"
+  integrity sha512-ds24iBxOrfIhdHP+e23y6kj1gbosgWu+tgAuxvMrYmnp6Sju/LjuY8lfkiVnn6P7mcdhtwpC2Z43o+apT9UdJg==
 
 stylelint-config-get-off-my-lawn@^2.0.0:
   version "2.0.0"
