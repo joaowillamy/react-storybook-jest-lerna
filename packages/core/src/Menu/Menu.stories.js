@@ -1,4 +1,5 @@
 import React from 'react';
+import { ThemeProvider } from '@joaowillamy-test-quero/theme';
 
 import Menu from '.';
 
@@ -7,4 +8,8 @@ export default {
   title: 'Core|Menu'
 };
 
-export const primary = () => <Menu>{'Menu'}</Menu>;
+export const menu = () => (
+  <ThemeProvider>
+    <Menu />
+  </ThemeProvider>
+);

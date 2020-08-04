@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Icon } from '@joaowillamy-test-quero/core';
 
-import * as S from './Header.styled';
 import { Container } from '../help/Container.styled';
+
+import * as S from './Header.styled';
 
 const Header = ({ srcLogo }) => {
   return (
