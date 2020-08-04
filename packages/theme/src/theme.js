@@ -1,4 +1,4 @@
-const BASE = 2;
+const BASE = 3;
 
 const borders = {
   sm: (color) => `1px solid ${color || '#00000029'}`,

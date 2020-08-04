@@ -5,6 +5,8 @@ import { ArrowIosBackOutline as ArrowBack } from '@styled-icons/evaicons-outline
 import { ArrowIosDownwardOutline as ArrowDownward } from '@styled-icons/evaicons-outline/ArrowIosDownwardOutline';
 import { ArrowIosForwardOutline as ArrowForward } from '@styled-icons/evaicons-outline/ArrowIosForwardOutline';
 import { ArrowIosUpwardOutline as ArrowUpward } from '@styled-icons/evaicons-outline/ArrowIosUpwardOutline';
+import { Chatbubbles } from '@styled-icons/ionicons-outline/Chatbubbles';
+import { Email } from '@styled-icons/material-outlined/Email';
 
 export const Icon = {
   InfoCircle,
@@ -13,5 +15,7 @@ export const Icon = {
   ArrowBack,
   ArrowDownward,
   ArrowForward,
-  ArrowUpward
+  ArrowUpward,
+  Chatbubbles,
+  Email
 };

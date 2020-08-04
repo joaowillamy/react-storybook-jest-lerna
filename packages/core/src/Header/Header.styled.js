@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import midia from 'styled-media-query';
+import media from 'styled-media-query';
 
 import { chooseScrem } from '../help/chooseScreem';
 
@@ -29,14 +29,14 @@ export const HeaderNavItem = styled.li`
 
   ${chooseScrem}
 
-  ${midia.greaterThan('medium')`
+  ${media.greaterThan('medium')`
     flex-direction: row;
   `};
 
   ${({ borderLeftMobile }) => {
     if (borderLeftMobile)
       return css`
-        ${midia.lessThan('medium')`
+        ${media.lessThan('medium')`
               border-left: 2px solid #ccc;
               padding-left: 15px;
          `}
@@ -46,7 +46,7 @@ export const HeaderNavItem = styled.li`
   ${({ borderRightMobile }) => {
     if (borderRightMobile)
       return css`
-        ${midia.lessThan('medium')`
+        ${media.lessThan('medium')`
               border-right: 2px solid #ccc;
               padding-right: 15px;
          `}
@@ -56,7 +56,7 @@ export const HeaderNavItem = styled.li`
   ${({ borderRightDesktop }) => {
     if (borderRightDesktop)
       return css`
-        ${midia.greaterThan('medium')`
+        ${media.greaterThan('medium')`
               border-right: 2px solid #ccc;
               padding-right: 15px;
          `}
@@ -71,7 +71,7 @@ export const HeaderNavText = styled.p`
 
   color: ${({ theme }) => theme.colors.bluePrimary};
 
-  ${midia.greaterThan('medium')`
+  ${media.greaterThan('medium')`
     margin: 0px 10px;
   `};
 

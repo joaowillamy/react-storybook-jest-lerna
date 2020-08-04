@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import midia from 'styled-media-query';
+import media from 'styled-media-query';
 
 export const Container = styled.div`
-  ${midia.greaterThan('medium')`
-          width: 95%;
-          margin: 0 auto;
-        `}
+  ${media.greaterThan('medium')`
+      width: 95%;
+      margin: 0 auto;
+    `}
 `;

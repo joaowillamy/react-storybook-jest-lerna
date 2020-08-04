@@ -28,6 +28,4 @@ Menu.propTypes = {
   options: PropTypes.array
 };
 
-Menu.defaultProps = {};
-
 export default Menu;

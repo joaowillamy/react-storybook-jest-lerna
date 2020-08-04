@@ -21,7 +21,13 @@ export const MenuItem = styled.li`
   font-weight: 600;
   color: #fff;
   ${({ isActive, theme }) => isActive && `background-color: ${theme.colors.blueSecondary}`}
-  ${chooseScrem}
+  ${chooseScrem};
+  transition: all 0.3s;
+  cursor: pointer;
+
+  :hover {
+    background-color: ${({ theme }) => theme.colors.blueSecondary};
+  }
 
   svg {
     width: ${({ theme }) => theme.iconSizes.lg};

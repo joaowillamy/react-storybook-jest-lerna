@@ -3,11 +3,11 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import 'jest-styled-components';
 
-import Header from '.';
+import Footer from '.';
 
-describe('Header', () => {
-  test('Header', () => {
-    const tree = renderer.create(<Header></Header>).toJSON();
+describe('Footer', () => {
+  test('Footer', () => {
+    const tree = renderer.create(<Footer></Footer>).toJSON();
 
     expect(tree).toMatchSnapshot();
   });
