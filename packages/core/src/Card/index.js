@@ -8,13 +8,11 @@ const Card = (props) => {
 };
 
 Card.propTypes = {
-  width: PropTypes.string,
-  height: PropTypes.string
+  hover: PropTypes.bool
 };
 
 Card.defaultProps = {
-  width: true,
-  height: true
+  hover: true
 };
 
 export default Card;

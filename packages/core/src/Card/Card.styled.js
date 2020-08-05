@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import media from 'styled-media-query';
 
 export const Card = styled.div`
@@ -8,19 +8,25 @@ export const Card = styled.div`
   display: inline-block;
   width: 90%;
   min-height: 100px;
-  cursor: pointer;
   text-align: center;
+  background-color: #fff;
 
   img {
     max-width: 100%;
-    max-height: 50px;
+    max-height: 40px;
     margin: 0 auto;
   }
 
-  :hover {
-    transform: translateY(-2px);
-    box-shadow: ${({ theme }) => theme.shadows.lg()};
-  }
+  ${({ hover }) =>
+    hover &&
+    css`
+      cursor: pointer;
+
+      :hover {
+        transform: translateY(-2px);
+        box-shadow: ${({ theme }) => theme.shadows.lg()};
+      }
+    `}
 
   ${media.greaterThan('medium')`
     min-height: 200px;

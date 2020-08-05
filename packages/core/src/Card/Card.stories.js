@@ -16,3 +16,12 @@ export const card = () => (
     </Card>
   </ThemeProvider>
 );
+
+export const cardWithouHover = () => (
+  <ThemeProvider>
+    <Card hover={false}>
+      <img src={'https://via.placeholder.com/885x307'} alt={'Logo quero bolsa'} />
+      oi
+    </Card>
+  </ThemeProvider>
+);
