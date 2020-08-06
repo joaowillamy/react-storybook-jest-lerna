@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Icon } from '@joaowillamy-test-quero/core';
+import { Icon } from '../Icons';
 
 import { Container } from '../help/Container.styled';
 
@@ -17,10 +17,15 @@ const Header = ({ srcLogo }) => {
                 <S.HeaderNavItem borderRightMobile borderRightDesktop>
                   <Icon.InfoCircle />
                   <S.HeaderNavText justMobile>Ajuda</S.HeaderNavText>
-                  <S.HeaderNavText justDesktop>Como funciona</S.HeaderNavText>
+                  <S.HeaderNavText justDesktop>
+                    Como funciona
+                  </S.HeaderNavText>
                 </S.HeaderNavItem>
 
-                <S.HeaderNavItem justDesktop style={{ marginLeft: '15px' }}>
+                <S.HeaderNavItem
+                  justDesktop
+                  style={{ marginLeft: '15px' }}
+                >
                   <Icon.Whatsapp style={{ color: '#25d366' }} />
                   <S.HeaderNavText>
                     <S.HeaderNavFone>0800 123 2222</S.HeaderNavFone>
@@ -35,7 +40,9 @@ const Header = ({ srcLogo }) => {
             </S.HeaderNavItem>
 
             <S.HeaderNavItem borderLeftMobile>
-              <S.HeaderNavText justDesktop>Nome Sobrenome</S.HeaderNavText>
+              <S.HeaderNavText justDesktop>
+                Nome Sobrenome
+              </S.HeaderNavText>
               <Icon.UserCircle />
               <S.HeaderNavText justMobile>Conta</S.HeaderNavText>
             </S.HeaderNavItem>
