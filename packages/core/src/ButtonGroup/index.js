@@ -1,4 +1,5 @@
 import React, { useCallback, useState } from 'react';
+import PropTypes from 'prop-types';
 
 import * as S from './ButtonGroup.styled';
 
@@ -25,6 +26,15 @@ const ButtonGroup = ({ onChange, options, ...props }) => {
       ))}
     </S.ButtonGroup>
   );
+};
+
+ButtonGroup.propTypes = {
+  options: PropTypes.bool,
+  onChange: PropTypes.func
+};
+
+ButtonGroup.defaultProps = {
+  options: []
 };
 
 export default ButtonGroup;
