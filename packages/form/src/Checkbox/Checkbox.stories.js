@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ThemeProvider } from '@joaowillamy-test-quero/theme';
 import { Card } from '@joaowillamy-test-quero/core';
 

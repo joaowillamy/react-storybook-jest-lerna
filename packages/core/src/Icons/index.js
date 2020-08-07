@@ -9,6 +9,7 @@ import { Chatbubbles } from '@styled-icons/ionicons-outline/Chatbubbles';
 import { Email } from '@styled-icons/material-outlined/Email';
 import { AddCircleOutline } from '@styled-icons/material/AddCircleOutline';
 import { Close } from '@styled-icons/material/Close';
+import { Check } from '@styled-icons/bootstrap/Check';
 
 export const Icon = {
   InfoCircle,
@@ -21,5 +22,6 @@ export const Icon = {
   Chatbubbles,
   Email,
   AddCircleOutline,
-  Close
+  Close,
+  Check
 };

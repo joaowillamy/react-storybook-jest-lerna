@@ -12,16 +12,8 @@ export const CheckboxLabel = styled.label`
   width: auto;
   outline: none;
   transition: all 0.3s;
-
-  ${({ disabled }) =>
-    disabled
-      ? css`
-          cursor: not-allowed;
-        `
-      : css`
-          cursor: pointer;
-        `}
 `;
+
 export const CheckboxContainer = styled.div`
   margin-right: 5px;
 `;
