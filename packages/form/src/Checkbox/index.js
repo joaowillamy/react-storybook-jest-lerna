@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import PropTypes from 'prop-types';
-import { Check } from '@styled-icons/bootstrap/Check';
+import { Icon } from '@joaowillamy-test-quero/core';
 
 import * as S from './Checkbox.styled';
 
@@ -25,7 +25,7 @@ const Checkbox = ({ label, value, name, onChange }) => {
             onChange={toggleIsChecked}
           />
           <S.CheckboxIcon isChecked={isChecked}>
-            <Check />
+            <Icon.Check />
           </S.CheckboxIcon>
         </S.CheckboxContainer>
         {label}
@@ -39,7 +39,5 @@ Checkbox.propTypes = {
   value: PropTypes.any,
   onChange: PropTypes.func
 };
-
-Checkbox.defaultProps = {};
 
 export default Checkbox;

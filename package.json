@@ -69,6 +69,7 @@
     "webpack": "^4.41.6"
   },
   "dependencies": {
+    "react-dropdown-select": "^4.4.2",
     "styled-icons": "^10.14.1"
   }
 }
