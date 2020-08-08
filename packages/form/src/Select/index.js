@@ -16,6 +16,11 @@ const Select = (props) => {
   );
 };
 
-Select.propTypes = {};
+Select.propTypes = {
+  labelField: PropTypes.string,
+  valueField: PropTypes.string,
+  options: PropTypes.array,
+  onChange: PropTypes.func
+};
 
 export default Select;
