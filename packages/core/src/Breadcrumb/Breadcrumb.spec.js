@@ -6,7 +6,9 @@ import Breadcrumb from '.';
 
 describe('Breadcrumb', () => {
   test('primary', () => {
-    const tree = renderer.create(<Breadcrumb>{'Test'}</Breadcrumb>).toJSON();
+    const tree = renderer
+      .create(<Breadcrumb>{'Test'}</Breadcrumb>)
+      .toJSON();
 
     expect(tree).toMatchSnapshot();
   });

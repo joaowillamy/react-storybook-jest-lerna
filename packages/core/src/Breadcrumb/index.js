@@ -8,7 +8,8 @@ const Breadcrumb = (props) => {
   return (
     <S.Breadcrumb {...props}>
       <S.BreadcrumbText justDesktop>
-        <S.BreadcrumbTextBlue> Home</S.BreadcrumbTextBlue> / <S.BreadcrumbTextBlue> Minha conta</S.BreadcrumbTextBlue> /
+        <S.BreadcrumbTextBlue> Home</S.BreadcrumbTextBlue> /{' '}
+        <S.BreadcrumbTextBlue> Minha conta</S.BreadcrumbTextBlue> /
         Bolsas favoritas
       </S.BreadcrumbText>
       <S.BreadcrumbText justMobile>

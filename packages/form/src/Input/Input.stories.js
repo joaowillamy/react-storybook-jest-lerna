@@ -7,6 +7,15 @@ export default {
   title: 'Form|Input'
 };
 
-export const placeholder = () => <Input id="email" label="Email" placeholder="user@gmail.com" />;
+export const placeholder = () => (
+  <Input id="email" label="Email" placeholder="user@gmail.com" />
+);
 
-export const disabled = () => <Input disabled id="email" label="Email" placeholder="user@gmail.com" />;
+export const disabled = () => (
+  <Input
+    disabled
+    id="email"
+    label="Email"
+    placeholder="user@gmail.com"
+  />
+);
