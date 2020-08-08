@@ -8,7 +8,6 @@ module.exports = {
     indentation: [2, { except: ['value'], severity: 'warning' }],
     // disabled because of prettier
     'number-leading-zero': null,
-
     // disabled because of styled-components
     'declaration-empty-line-before': null,
     'order/properties-alphabetical-order': null,

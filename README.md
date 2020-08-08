@@ -1,4 +1,4 @@
-# Monorepo with Lerna to Desing System
+# Monorepo with Lerna to Design System
 
 > A Monorepo with multiple packages and a shared build, test, and release process.
 
@@ -33,14 +33,6 @@ When linking inside of the Monorepo, everything works as expected. If you are tr
 1. Change the `package.json` of the consumer from `$YOUR_PACKAGE_NAME` (which lives inside the monorepo) to `file:./../monorepo/packages/$YOUR_PACKAGE_NAME`
 1. Run `rm -rf node_modules && yarn` in the consumer
 1. 🎉
-
-## Contributing
-
-All formatting and linting should be taken care of for you using [stylelint](https://github.com/stylelint/stylelint), [ESLint](https://eslint.org/), and [Prettier](https://prettier.io/). You should also consider installing an extension for CSS syntax highlighting.
-
-- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
-- [webstorm-styled-components](https://github.com/styled-components/webstorm-styled-components)
-- [Other IDEs](https://www.styled-components.com/docs/tooling#syntax-highlighting)
 
 ## Publish
 

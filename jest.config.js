@@ -11,5 +11,6 @@ module.exports = {
       statements: 100
     }
   },
+
   testPathIgnorePatterns: ['<rootDir>/packages/(?:.+?)/lib/']
 };
