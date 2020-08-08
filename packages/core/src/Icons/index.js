@@ -10,6 +10,9 @@ import { Email } from '@styled-icons/material-outlined/Email';
 import { AddCircleOutline } from '@styled-icons/material/AddCircleOutline';
 import { Close } from '@styled-icons/material/Close';
 import { Check } from '@styled-icons/bootstrap/Check';
+import { StarFill } from '@styled-icons/bootstrap/StarFill';
+import { StarHalf } from '@styled-icons/bootstrap/StarHalf';
+import { Star } from '@styled-icons/bootstrap/Star';
 
 export const Icon = {
   InfoCircle,
@@ -23,5 +26,8 @@ export const Icon = {
   Email,
   AddCircleOutline,
   Close,
-  Check
+  Check,
+  StarFill,
+  StarHalf,
+  Star
 };
