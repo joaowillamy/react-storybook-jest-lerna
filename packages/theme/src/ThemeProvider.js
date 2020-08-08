@@ -4,7 +4,11 @@ import { ThemeProvider } from 'styled-components';
 import DEFAULT_THEME from './theme';
 import { GlobalStyles } from './GlobalStyles';
 
-const JoaowillamyTestQueroThemeProvider = ({ theme, children, ...other }) => {
+const JoaowillamyTestQueroThemeProvider = ({
+  theme,
+  children,
+  ...other
+}) => {
   return (
     <ThemeProvider theme={theme} {...other}>
       <GlobalStyles />

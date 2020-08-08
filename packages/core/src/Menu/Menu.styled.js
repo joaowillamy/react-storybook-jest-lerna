@@ -20,7 +20,8 @@ export const MenuItem = styled.li`
   padding: 15px;
   font-weight: 600;
   color: #fff;
-  ${({ isActive, theme }) => isActive && `background-color: ${theme.colors.blueSecondary}`}
+  ${({ isActive, theme }) =>
+    isActive && `background-color: ${theme.colors.blueSecondary}`}
   ${chooseScrem};
   transition: all 0.3s;
   cursor: pointer;

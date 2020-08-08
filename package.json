@@ -30,7 +30,7 @@
   },
   "lint-staged": {
     "*.{js,json,md,yml}": [
-      "prettier --write",
+      "prettier --write \"**/*.{js,json,md,yml}\"",
       "git add"
     ]
   },

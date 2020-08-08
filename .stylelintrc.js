@@ -1,8 +1,11 @@
 module.exports = {
   processors: ['stylelint-processor-styled-components'],
-  extends: ['stylelint-config-get-off-my-lawn', 'stylelint-config-styled-components'],
+  extends: [
+    'stylelint-config-get-off-my-lawn',
+    'stylelint-config-styled-components'
+  ],
   rules: {
-    indentation: [2, {except: ['value'], severity: 'warning'}],
+    indentation: [2, { except: ['value'], severity: 'warning' }],
     // disabled because of prettier
     'number-leading-zero': null,
 
