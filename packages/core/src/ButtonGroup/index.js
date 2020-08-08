@@ -29,7 +29,7 @@ const ButtonGroup = ({ onChange, options, ...props }) => {
 };
 
 ButtonGroup.propTypes = {
-  options: PropTypes.bool,
+  options: PropTypes.array,
   onChange: PropTypes.func
 };
 
