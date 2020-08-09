@@ -1,10 +1,28 @@
-# Monorepo with Lerna to Design System
+<h1 align="center">
+    <img alt="GoBarber Web" src="http://features.frontend.quero.s3-website.us-east-2.amazonaws.com/images/logo-querobolsa.svg" width="300px"/>
+    <br>
+    Design System - Test front of Quero Educação
+</h1>
 
-make with love <3
+<h4 align="center">
+  make with love <3
+</h4>
+<p align="center">
+  <img alt="GitHub top language" src="http://img.shields.io/github/languages/top/joaowillamy/react-storybook-jest-lerna.svg">
+  
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/joaowillamy/react-storybook-jest-lerna.svg">
+  
+  <a href="https://app.codacy.com/manual/joaowillamy/react-storybook-jest-lerna?utm_source=github.com&utm_medium=referral&utm_content=joaowillamy/react-storybook-jest-lerna&utm_campaign=Badge_Grade_Dashboard">
+    <img alt="Codacy grade" src="https://api.codacy.com/project/badge/Grade/a2f69fbed9444b99a2c593d77d7b794c">
+  </a>
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/joaowillamy/react-storybook-jest-lerna.svg">
+</p>
 
 ## See the project working
 
 - 🚀 [[LIVE] - Features](http://features.frontend.quero.s3-website.us-east-2.amazonaws.com/)
+
 - 📝 [[DOCUMENTATION] - Design system](http://designsystem.frontend.quero.s3-website.us-east-2.amazonaws.com/?path=/docs/core-button--primary)
 
 ## Important!!!
