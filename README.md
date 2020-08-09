@@ -1,5 +1,21 @@
 # Monorepo with Lerna to Design System
 
+make with love <3
+
+## Important!!!
+
+this project was divided into 2 repositories, one for the design system (where the UI components were) and another for the implementation of the page with the features.
+
+- 💄 [REPO 1] This one, Design system
+  - 🔧 [[NPM] @joaowillamy-test-quero/core](https://www.npmjs.com/package/@joaowillamy-test-quero/core)
+  - 🔧 [[NPM] @joaowillamy-test-quero/form](https://www.npmjs.com/package/@joaowillamy-test-quero/form)
+  - 🔧 [[NPM] @joaowillamy-test-quero/theme](https://www.npmjs.com/package/@joaowillamy-test-quero/theme)
+  - 🔖 [Releases](https://github.com/joaowillamy/react-storybook-jest-lerna/releases)
+  - [Pull Request](https://github.com/joaowillamy/react-storybook-jest-lerna)
+- [[REPO 2] the features](https://github.com/joaowillamy/front-end-test-quero)
+  - [Pull Request](https://github.com/joaowillamy/front-end-test-quero/pulls?q=is%3Apr+is%3Aclosed)
+  - [Issues](https://github.com/joaowillamy/front-end-test-quero/issues?q=is%3Aissue+is%3Aclosed)
+
 > A Monorepo with multiple packages and a shared build, test, and release process.
 
 - 🐉 [Lerna](https://lernajs.io/)  - The Monorepo manager
@@ -26,8 +42,6 @@
 
 ## Linking
 
-When linking inside of the Monorepo, everything works as expected. If you are trying to consume packages from this Monorepo _in a different application_ locally, using `npm link` or `yarn link` [does not work as expected](https://github.com/yarnpkg/yarn/issues/5538). However, we have a workaround for the time being.
-
 1. Run `yarn build`
 1. Run `yarn dev`
 1. Change the `package.json` of the consumer from `$YOUR_PACKAGE_NAME` (which lives inside the monorepo) to `file:./../monorepo/packages/$YOUR_PACKAGE_NAME`
@@ -37,3 +51,4 @@ When linking inside of the Monorepo, everything works as expected. If you are tr
 ## Publish
 
 - Run `npm publish --access public`
+- Run `yarn run lerna-publish`
