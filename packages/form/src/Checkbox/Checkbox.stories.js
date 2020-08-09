@@ -26,6 +26,7 @@ export const checkbox = () => {
         <Checkbox
           label={<>oi</>}
           name={'checkbox'}
+          isSelected={true}
           value={{ a: 2, b: [1, 2] }}
           onChange={(data) => {
             console.log(data);

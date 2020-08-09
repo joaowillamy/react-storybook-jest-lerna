@@ -4,13 +4,14 @@ import { Icon } from '@joaowillamy-test-quero/core';
 
 import * as S from './Checkbox.styled';
 
-const Checkbox = ({ label, value, name, onChange }) => {
-  const [isChecked, setIsChecked] = useState(false);
+const Checkbox = ({ label, isSelected, value, name, onChange }) => {
+  const [isChecked, setIsChecked] = useState(isSelected || false);
   const onChangeCallback = useCallback(onChange);
 
   const toggleIsChecked = () => {
     setIsChecked(!isChecked);
-    onChangeCallback && onChangeCallback({ value, name, isChecked });
+    onChangeCallback &&
+      onChangeCallback({ value, name, isChecked: !isChecked });
   };
 
   return (
@@ -37,7 +38,8 @@ const Checkbox = ({ label, value, name, onChange }) => {
 Checkbox.propTypes = {
   name: PropTypes.string,
   value: PropTypes.any,
-  onChange: PropTypes.func
+  onChange: PropTypes.func,
+  isSelected: PropTypes.bool
 };
 
 export default Checkbox;
