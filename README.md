@@ -2,9 +2,14 @@
 
 make with love <3
 
+## See the project working
+
+- 🚀 [[LIVE] - Features](http://features.frontend.quero.s3-website.us-east-2.amazonaws.com/)
+- 📝 [[DOCUMENTATION] - Design system](http://designsystem.frontend.quero.s3-website.us-east-2.amazonaws.com/?path=/docs/core-button--primary)
+
 ## Important!!!
 
-this project was divided into 2 repositories, one for the design system (where the UI components were) and another for the implementation of the page with the features.
+this project was divided into 2 repositories, one for the design system and another for the implementation of the page with the features.
 
 - 💄 [REPO 1] This one, Design system
   - 🔧 [[NPM] @joaowillamy-test-quero/core](https://www.npmjs.com/package/@joaowillamy-test-quero/core)
@@ -50,5 +55,6 @@ this project was divided into 2 repositories, one for the design system (where t
 
 ## Publish
 
-- Run `npm publish --access public`
-- Run `yarn run lerna-publish`
+- Run `npm publish --access public` - Make project public
+- Run `yarn run lerna-publish` - Send to npm
+- Run `yarn deploy-storybook` - Make deploy to S3 of AWS
