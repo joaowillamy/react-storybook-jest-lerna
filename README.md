@@ -9,7 +9,7 @@ make with love <3
 
 ## Important!!!
 
-this project was divided into 2 repositories, one for the design system (where the UI components were) and another for the implementation of the page with the features.
+this project was divided into 2 repositories, one for the design system and another for the implementation of the page with the features.
 
 - 💄 [REPO 1] This one, Design system
   - 🔧 [[NPM] @joaowillamy-test-quero/core](https://www.npmjs.com/package/@joaowillamy-test-quero/core)
