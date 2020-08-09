@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
 
-import { Icon } from '../Icons';
-import { Container } from '../help/Container.styled';
-import * as S from './Footer.styled';
+import { Icon } from "../Icons";
+import { Container } from "../help/Container.styled";
 
-const Footer = (props) => (
+import * as S from "./Footer.styled";
+
+const Footer = () => (
   <S.Footer>
     <footer>
       <Container>
@@ -14,13 +14,12 @@ const Footer = (props) => (
             <S.FooterCardContainer fullInMobile>
               <Icon.Whatsapp />
               <div>
-                <S.FooterCardText>0800 123 2222</S.FooterCardText>{' '}
-                <br />
+                <S.FooterCardText>{"0800 123 2222"}</S.FooterCardText> <br />
                 <S.FooterCardSubText justMobile>
-                  Segunda a sexta de 8h às 22h
+                  {"Segunda a sexta de 8h às 22h"}
                 </S.FooterCardSubText>
                 <S.FooterCardSubText justDesktop>
-                  Seg - Sex 8h-22h
+                  {"Seg - Sex 8h-22h"}
                 </S.FooterCardSubText>
               </div>
             </S.FooterCardContainer>
@@ -30,13 +29,13 @@ const Footer = (props) => (
             <S.FooterCardContainer>
               <Icon.Chatbubbles />
               <div>
-                <S.FooterCardText justMobile>Chat</S.FooterCardText>
+                <S.FooterCardText justMobile>{"Chat"}</S.FooterCardText>
                 <S.FooterCardText justDesktop>
-                  Chat ao vivo
-                </S.FooterCardText>{' '}
+                  {"Chat ao vivo"}
+                </S.FooterCardText>{" "}
                 <br />
                 <S.FooterCardSubText justDesktop>
-                  Seg - Sex 8h-22h
+                  {"Seg - Sex 8h-22h"}
                 </S.FooterCardSubText>
               </div>
             </S.FooterCardContainer>
@@ -46,13 +45,13 @@ const Footer = (props) => (
             <S.FooterCardContainer>
               <Icon.Email />
               <div>
-                <S.FooterCardText justMobile>E-mail</S.FooterCardText>
+                <S.FooterCardText justMobile>{"E-mail"}</S.FooterCardText>
                 <S.FooterCardText justDesktop>
-                  Mande um e-mail
-                </S.FooterCardText>{' '}
+                  {"Mande um e-mail"}
+                </S.FooterCardText>{" "}
                 <br />
                 <S.FooterCardSubText justDesktop>
-                  Respondemos rapidinho
+                  {"Respondemos rapidinho"}
                 </S.FooterCardSubText>
               </div>
             </S.FooterCardContainer>
@@ -62,26 +61,22 @@ const Footer = (props) => (
             <S.FooterCardContainer>
               <Icon.InfoCircle />
               <div>
-                <S.FooterCardText justMobile>Ajuda</S.FooterCardText>
+                <S.FooterCardText justMobile>{"Ajuda"}</S.FooterCardText>
                 <S.FooterCardText justDesktop>
-                  Central de ajuda
-                </S.FooterCardText>{' '}
+                  {"Central de ajuda"}
+                </S.FooterCardText>{" "}
                 <br />
                 <S.FooterCardSubText justDesktop>
-                  Encontre todas as respostas
+                  {"Encontre todas as respostas"}
                 </S.FooterCardSubText>
               </div>
             </S.FooterCardContainer>
           </S.FooterCard>
         </S.FooterCards>
       </Container>
-      <S.FooterEnd>Feito com ❤️ pela Quero Educação</S.FooterEnd>
+      <S.FooterEnd>{"Feito com ❤️ pela Quero Educação"}</S.FooterEnd>
     </footer>
   </S.Footer>
 );
-
-Footer.propTypes = {
-  options: PropTypes.array
-};
 
 export default Footer;

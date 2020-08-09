@@ -1,13 +1,19 @@
-import React from 'react';
+import React from "react";
+import renderer from "react-test-renderer";
+import "jest-styled-components";
+import { ThemeProvider } from "@joaowillamy-test-quero/theme";
 
-import renderer from 'react-test-renderer';
-import 'jest-styled-components';
+import Range from ".";
 
-import Range from '.';
-
-describe('Range', () => {
-  test('Range', () => {
-    const tree = renderer.create(<Range></Range>).toJSON();
+describe("Range", () => {
+  test("Range", () => {
+    const tree = renderer
+      .create(
+        <ThemeProvider>
+          <Range />
+        </ThemeProvider>
+      )
+      .toJSON();
 
     expect(tree).toMatchSnapshot();
   });

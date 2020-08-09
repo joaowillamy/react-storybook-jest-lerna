@@ -1,11 +1,11 @@
-import { css } from 'styled-components';
-import media from 'styled-media-query';
+import { css } from "styled-components";
+import media from "styled-media-query";
 
 export const chooseScrem = css`
   ${({ justMobile }) =>
     justMobile &&
     css`
-      ${media.greaterThan('medium')`
+      ${media.greaterThan("medium")`
           display: none;
         `}
     `};
@@ -13,7 +13,7 @@ export const chooseScrem = css`
   ${({ justDesktop }) =>
     justDesktop &&
     css`
-      ${media.lessThan('medium')`
+      ${media.lessThan("medium")`
           display: none;
         `}
     `};

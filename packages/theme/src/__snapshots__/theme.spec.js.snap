@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DEFAULT_THEME matches snapshot 1`] = `
+Object {
+  "borders": Object {
+    "md": "3px solid #00000029",
+    "sm": "1px solid #00000029",
+  },
+  "colors": Object {
+    "Overlay": "#1F2D30e0",
+    "black": "#1F2D30",
+    "bluePrimary": "#18ACC4",
+    "blueSecondary": "#007A8D",
+    "green": "#0FA866",
+    "grey": "#FBFBFB",
+    "yellowPrimary": "#FDCB13",
+    "yellowSecondary": "#DE9E1F",
+  },
+  "fontSizes": Object {
+    "lg": "18px",
+    "md": "16px",
+    "sm": "14px",
+    "xl": "22px",
+    "xs": "12px",
+    "xxl": "26px",
+    "xxxl": "36px",
+  },
+  "fontWeights": Object {
+    "black": 900,
+    "bold": 700,
+    "extrabold": 800,
+    "extralight": 200,
+    "light": 300,
+    "medium": 500,
+    "regular": 400,
+    "semibold": 600,
+    "thin": 100,
+  },
+  "fonts": Object {
+    "Montserrat": "Montserrat",
+  },
+  "iconSizes": Object {
+    "lg": "26px",
+    "md": "16px",
+    "sm": "12px",
+  },
+  "shadows": Object {
+    "lg": "0 3px 6px #00000029",
+    "md": "0 3px 4px #00000029",
+    "sm": "0 1px 3px #00000029",
+  },
+  "space": Object {
+    "lg": "12px",
+    "md": "9px",
+    "sm": "6px",
+    "xl": "24px",
+    "xs": "3px",
+    "xxl": "30px",
+    "xxxl": "36px",
+  },
+}
+`;

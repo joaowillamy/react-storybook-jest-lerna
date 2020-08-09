@@ -1,6 +1,7 @@
-import styled, { css } from 'styled-components';
-import media from 'styled-media-query';
-import { chooseScrem } from '../help/chooseScreem';
+import styled, { css } from "styled-components";
+import media from "styled-media-query";
+
+import { chooseScrem } from "../help/chooseScreem";
 
 export const Footer = styled.div`
   background-color: ${({ theme }) => theme.colors.blueSecondary};
@@ -24,8 +25,8 @@ export const FooterCardContainer = styled.div`
   display: flex;
   justify-content: center;
 
-  ${media.lessThan('medium')`
-    ${({ fullInMobile }) => !fullInMobile && 'display: block;'}
+  ${media.lessThan("medium")`
+    ${({ fullInMobile }) => !fullInMobile && "display: block;"}
     `}
 `;
 
@@ -62,7 +63,7 @@ export const FooterCard = styled.li`
     `}
 
   ${({ fullInMobile, theme }) => css`
-    width: ${fullInMobile ? '100%' : '33%'};
+    width: ${fullInMobile ? "100%" : "33%"};
 
     ${fullInMobile &&
       css`
@@ -75,7 +76,7 @@ export const FooterCard = styled.li`
       `}
   `};
 
-  ${media.greaterThan('medium')`
+  ${media.greaterThan("medium")`
     border:none;
     width: 25%;
     text-align: left;

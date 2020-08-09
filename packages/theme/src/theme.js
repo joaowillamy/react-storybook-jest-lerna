@@ -1,33 +1,33 @@
 const BASE = 3;
 
 const borders = {
-  sm: (color) => `1px solid ${color || '#00000029'}`,
-  md: (color) => `3px solid ${color || '#00000029'}`
+  sm: color => `1px solid ${color || "#00000029"}`,
+  md: color => `3px solid ${color || "#00000029"}`
 };
 
 const colors = {
-  bluePrimary: '#18ACC4',
-  blueSecondary: '#007A8D',
-  yellowPrimary: '#FDCB13',
-  yellowSecondary: '#DE9E1F',
-  green: '#0FA866',
-  black: '#1F2D30',
-  grey: '#FBFBFB',
-  Overlay: '#1F2D30e0' // com 88% de opacidade.
+  bluePrimary: "#18ACC4",
+  blueSecondary: "#007A8D",
+  yellowPrimary: "#FDCB13",
+  yellowSecondary: "#DE9E1F",
+  green: "#0FA866",
+  black: "#1F2D30",
+  grey: "#FBFBFB",
+  Overlay: "#1F2D30e0" // com 88% de opacidade.
 };
 
 const fonts = {
-  Montserrat: 'Montserrat'
+  Montserrat: "Montserrat"
 };
 
 const fontSizes = {
-  xs: '12px',
-  sm: '14px',
-  md: '16px',
-  lg: '18px',
-  xl: '22px',
-  xxl: '26px',
-  xxxl: '36px'
+  xs: "12px",
+  sm: "14px",
+  md: "16px",
+  lg: "18px",
+  xl: "22px",
+  xxl: "26px",
+  xxxl: "36px"
 };
 
 const fontWeights = {
@@ -43,15 +43,15 @@ const fontWeights = {
 };
 
 const iconSizes = {
-  sm: '12px',
-  md: '16px',
-  lg: '26px'
+  sm: "12px",
+  md: "16px",
+  lg: "26px"
 };
 
 const shadows = {
-  sm: (color) => `0 1px 3px ${color || '#00000029'}`,
-  md: (color) => `0 3px 4px ${color || '#00000029'}`,
-  lg: (color) => `0 3px 6px ${color || '#00000029'}`
+  sm: color => `0 1px 3px ${color || "#00000029"}`,
+  md: color => `0 3px 4px ${color || "#00000029"}`,
+  lg: color => `0 3px 6px ${color || "#00000029"}`
 };
 
 const space = {

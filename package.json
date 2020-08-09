@@ -14,13 +14,10 @@
     "coverage": "jest --coverage",
     "deploy-storybook": "storybook-to-aws-s3 --bucket-path=designsystem.frontend.quero/",
     "dev": "start-storybook -p 5555",
-    "lint:js": "eslint . --ext .js --ignore-pattern lib --ignore-pattern node_modules",
-    "lint:styles": "stylelint './packages/**/*.js'",
-    "lint": "yarn lint:js && yarn lint:styles",
     "now-build": "build-storybook -c .storybook -o public",
     "prettier": "prettier --write \"**/*.{js,json,md,yml}\"",
     "lerna-publish": "lerna publish",
-    "test": "yarn build && yarn lint && yarn coverage",
+    "test": "yarn build && yarn coverage",
     "unit": "jest"
   },
   "husky": {
@@ -66,6 +63,9 @@
     "stylelint-config-get-off-my-lawn": "^2.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
     "webpack": "^4.41.6"
   },
   "dependencies": {

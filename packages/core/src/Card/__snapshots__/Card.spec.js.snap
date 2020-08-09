@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card primary 1`] = `
+.c0 {
+  padding: 10px;
+  box-shadow: 0 3px 4px #00000029;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: inline-block;
+  width: 90%;
+  min-height: 100px;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.c0 img {
+  max-width: 100%;
+  max-height: 40px;
+  margin: 0 auto;
+}
+
+.c0:hover {
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+  box-shadow: 0 3px 6px #00000029;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    min-height: 200px;
+    width: 23%;
+    margin: 0 5px;
+  }
+}
+
+<div
+  className="c0"
+>
+  Test
+</div>
+`;

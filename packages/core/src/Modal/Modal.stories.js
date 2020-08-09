@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import { ThemeProvider } from '@joaowillamy-test-quero/theme';
+import React, { useState } from "react";
+import { ThemeProvider } from "@joaowillamy-test-quero/theme";
 
-import Button from '../Button';
-import Modal from '.';
+import Button from "../Button";
+import Modal from ".";
 
 export default {
   component: Modal,
-  title: 'Core|Modal'
+  title: "Core|Modal"
 };
 
 export const modal = () => {

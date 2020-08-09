@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import * as S from './Card.styled';
+import * as S from "./Card.styled";
 
-const Card = (props) => {
+const Card = props => {
   return <S.Card {...props} />;
 };
 

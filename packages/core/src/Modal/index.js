@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { Icon } from '../Icons';
+import React, { useEffect } from "react";
+import PropTypes from "prop-types";
+import { Icon } from "../Icons";
 
-import * as S from './Modal.styled';
+import * as S from "./Modal.styled";
 
 const Modal = ({ toggleModal, children, isOpen }) => {
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = '';
+      document.body.style.overflow = "";
     }
   }, [isOpen]);
 

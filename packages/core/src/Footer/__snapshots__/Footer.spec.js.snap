@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Footer 1`] = `
+.c5 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  background-color: #007A8D;
+}
+
+.c14 {
+  background-color: #18ACC4;
+  padding: 36px 0;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-size: 12px;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.c11 {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.c12 {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.c7 {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.c8 {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.c3 {
+  display: inline-block;
+  padding: 20px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 4px solid #18ACC4;
+  text-align: left;
+}
+
+.c3 svg {
+  width: 26px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.c3 svg {
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+.c9 {
+  display: inline-block;
+  padding: 20px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  width: 33%;
+}
+
+.c9 svg {
+  width: 26px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.c13 {
+  display: inline-block;
+  padding: 20px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  border-right: 4px solid #18ACC4;
+  border-left: 4px solid #18ACC4;
+  width: 33%;
+}
+
+.c13 svg {
+  width: 26px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+  .c10 {
+    display: block;
+  }
+}
+
+@media (min-width:768px) {
+  .c11 {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .c12 {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    border: none;
+    width: 25%;
+    text-align: left;
+  }
+
+  .c3 svg {
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width:768px) {
+  .c9 {
+    border: none;
+    width: 25%;
+    text-align: left;
+  }
+
+  .c9 svg {
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width:768px) {
+  .c13 {
+    border: none;
+    width: 25%;
+    text-align: left;
+  }
+
+  .c13 svg {
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <footer>
+    <div
+      className="c1"
+    >
+      <ul
+        className="c2"
+      >
+        <li
+          className="c3"
+        >
+          <div
+            className="c4"
+          >
+            <svg
+              aria-hidden="true"
+              className="c5"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                fill="currentColor"
+              />
+            </svg>
+            <div>
+              <span
+                className="c6"
+              >
+                0800 123 2222
+              </span>
+               
+              <br />
+              <span
+                className="c7"
+              >
+                Segunda a sexta de 8h às 22h
+              </span>
+              <span
+                className="c8"
+              >
+                Seg - Sex 8h-22h
+              </span>
+            </div>
+          </div>
+        </li>
+        <li
+          className="c9"
+        >
+          <div
+            className="c10"
+          >
+            <svg
+              aria-hidden="true"
+              className="c5"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M431 320.6c-1-3.6 1.2-8.6 3.3-12.2a33.68 33.68 0 012.1-3.1A162 162 0 00464 215c.3-92.2-77.5-167-173.7-167-83.9 0-153.9 57.1-170.3 132.9a160.7 160.7 0 00-3.7 34.2c0 92.3 74.8 169.1 171 169.1 15.3 0 35.9-4.6 47.2-7.7s22.5-7.2 25.4-8.3a26.44 26.44 0 019.3-1.7 26 26 0 0110.1 2l56.7 20.1a13.52 13.52 0 003.9 1 8 8 0 008-8 12.85 12.85 0 00-.5-2.7z"
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeMiterlimit={10}
+                strokeWidth={32}
+              />
+              <path
+                d="M66.46 232a146.23 146.23 0 006.39 152.67c2.31 3.49 3.61 6.19 3.21 8s-11.93 61.87-11.93 61.87a8 8 0 002.71 7.68A8.17 8.17 0 0072 464a7.26 7.26 0 002.91-.6l56.21-22a15.7 15.7 0 0112 .2c18.94 7.38 39.88 12 60.83 12A159.21 159.21 0 00284 432.11"
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeMiterlimit={10}
+                strokeWidth={32}
+              />
+            </svg>
+            <div>
+              <span
+                className="c11"
+              >
+                Chat
+              </span>
+              <span
+                className="c12"
+              >
+                Chat ao vivo
+              </span>
+               
+              <br />
+              <span
+                className="c8"
+              >
+                Seg - Sex 8h-22h
+              </span>
+            </div>
+          </div>
+        </li>
+        <li
+          className="c13"
+        >
+          <div
+            className="c10"
+          >
+            <svg
+              aria-hidden="true"
+              className="c5"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"
+              />
+            </svg>
+            <div>
+              <span
+                className="c11"
+              >
+                E-mail
+              </span>
+              <span
+                className="c12"
+              >
+                Mande um e-mail
+              </span>
+               
+              <br />
+              <span
+                className="c8"
+              >
+                Respondemos rapidinho
+              </span>
+            </div>
+          </div>
+        </li>
+        <li
+          className="c9"
+        >
+          <div
+            className="c10"
+          >
+            <svg
+              aria-hidden="true"
+              className="c5"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z"
+                fillRule="evenodd"
+              />
+              <path
+                d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"
+              />
+              <circle
+                cx={8}
+                cy={4.5}
+                r={1}
+              />
+            </svg>
+            <div>
+              <span
+                className="c11"
+              >
+                Ajuda
+              </span>
+              <span
+                className="c12"
+              >
+                Central de ajuda
+              </span>
+               
+              <br />
+              <span
+                className="c8"
+              >
+                Encontre todas as respostas
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="c14"
+    >
+      Feito com ❤️ pela Quero Educação
+    </div>
+  </footer>
+</div>
+`;

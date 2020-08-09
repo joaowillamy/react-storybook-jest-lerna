@@ -1,15 +1,15 @@
-import React from 'react';
-import { ThemeProvider } from '@joaowillamy-test-quero/theme';
+import React from "react";
+import { ThemeProvider } from "@joaowillamy-test-quero/theme";
 
-import Header from '.';
+import Header from ".";
 
 export default {
   component: Header,
-  title: 'Core|Header'
+  title: "Core|Header"
 };
 
 export const defaultHeader = () => (
   <ThemeProvider>
-    <Header>{'Header'}</Header>
+    <Header>{"Header"}</Header>
   </ThemeProvider>
 );

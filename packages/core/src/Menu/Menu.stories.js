@@ -1,11 +1,11 @@
-import React from 'react';
-import { ThemeProvider } from '@joaowillamy-test-quero/theme';
+import React from "react";
+import { ThemeProvider } from "@joaowillamy-test-quero/theme";
 
-import Menu from '.';
+import Menu from ".";
 
 export default {
   component: Menu,
-  title: 'Core|Menu'
+  title: "Core|Menu"
 };
 
 export const menu = () => (

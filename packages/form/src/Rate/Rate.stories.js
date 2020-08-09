@@ -1,11 +1,11 @@
-import React from 'react';
-import { ThemeProvider } from '@joaowillamy-test-quero/theme';
+import React from "react";
+import { ThemeProvider } from "@joaowillamy-test-quero/theme";
 
-import Rate from '.';
+import Rate from ".";
 
 export default {
   component: Rate,
-  title: 'form|Rate'
+  title: "form|Rate"
 };
 
 export const rate = () => {
@@ -18,7 +18,7 @@ export const rate = () => {
         <Rate value={0.5} />
       </div>
       <div>
-        <Rate value={1.0} />
+        <Rate value={1} />
       </div>
     </ThemeProvider>
   );

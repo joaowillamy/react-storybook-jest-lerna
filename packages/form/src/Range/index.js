@@ -1,7 +1,7 @@
-import React, { useState, useCallback } from 'react';
-import PropTypes from 'prop-types';
+import React, { useState, useCallback } from "react";
+import PropTypes from "prop-types";
 
-import * as S from './Range.styled';
+import * as S from "./Range.styled";
 
 const Range = ({ label, value, minRange, maxRange, onChange }) => {
   const [currentValue, setCurrentValue] = useState(value);
@@ -11,9 +11,9 @@ const Range = ({ label, value, minRange, maxRange, onChange }) => {
     <S.Range>
       {label && <S.RangeLabel>{label}</S.RangeLabel>}
       <S.RangeValue>
-        {currentValue.toLocaleString('pt-br', {
-          style: 'currency',
-          currency: 'BRL',
+        {currentValue.toLocaleString("pt-br", {
+          style: "currency",
+          currency: "BRL",
           minimumFractionDigits: 2,
           maximumFractionDigits: 2
         })}
@@ -23,10 +23,9 @@ const Range = ({ label, value, minRange, maxRange, onChange }) => {
         min={minRange}
         max={maxRange}
         value={currentValue}
-        onChange={(event) => {
+        onChange={event => {
           setCurrentValue(Number(event.target.value));
-          onChangeCallback &&
-            onChangeCallback(Number(event.target.value));
+          onChangeCallback && onChangeCallback(Number(event.target.value));
         }}
       />
     </S.Range>

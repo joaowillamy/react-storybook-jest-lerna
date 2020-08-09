@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
+import renderer from "react-test-renderer";
+import "jest-styled-components";
 
-import renderer from 'react-test-renderer';
-import 'jest-styled-components';
+import Modal from ".";
 
-import Modal from '.';
-
-describe('Modal', () => {
-  test('Modal', () => {
-    const tree = renderer.create(<Modal></Modal>).toJSON();
+describe("Modal", () => {
+  test("Modal", () => {
+    const tree = renderer.create(<Modal />).toJSON();
 
     expect(tree).toMatchSnapshot();
   });

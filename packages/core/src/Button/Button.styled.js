@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
 export const Button = styled.button`
   &,
@@ -41,13 +41,13 @@ export const Button = styled.button`
   }
 
   ${({ variant, theme, disabled }) => {
-    if (variant === 'primary' && !disabled) {
+    if (variant === "primary" && !disabled) {
       return css`
         border: 1px solid ${theme.colors.yellowSecondary};
         background-color: ${theme.colors.yellowPrimary};
         color: ${theme.colors.black};
       `;
-    } else if (variant === 'secondary' && !disabled) {
+    } else if (variant === "secondary" && !disabled) {
       return css`
         border: 1px solid ${theme.colors.bluePrimary};
         background-color: #fff;

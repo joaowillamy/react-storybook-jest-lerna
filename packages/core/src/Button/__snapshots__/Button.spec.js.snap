@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button primary 1`] = `
+.c0 {
+  border: 1px solid #DE9E1F;
+  background-color: #FDCB13;
+  color: #1F2D30;
+}
+
+.c0,
+.c0:link,
+.c0:visited {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 0 20px;
+  display: inline-block;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 42px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.c0:hover {
+  box-shadow: 0 3px 4px #00000029;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+  box-shadow: 0 1px 3px #00000029;
+}
+
+.c0:disabled,
+.c0 [disabled] {
+  background-color: #c9cdce;
+  color: #80898b;
+  cursor: not-allowed;
+  border: 1px solid #a5abac;
+}
+
+<button
+  className="c0"
+  disabled={false}
+>
+  Test
+</button>
+`;
+
+exports[`Button secondary 1`] = `
+.c0 {
+  border: 1px solid #18ACC4;
+  background-color: #fff;
+  color: #007A8D;
+}
+
+.c0,
+.c0:link,
+.c0:visited {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding: 0 20px;
+  display: inline-block;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 42px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.c0:hover {
+  box-shadow: 0 3px 4px #00000029;
+}
+
+.c0:active,
+.c0:focus {
+  outline: none;
+  box-shadow: 0 1px 3px #00000029;
+}
+
+.c0:disabled,
+.c0 [disabled] {
+  background-color: #c9cdce;
+  color: #80898b;
+  cursor: not-allowed;
+  border: 1px solid #a5abac;
+}
+
+<button
+  className="c0"
+  disabled={false}
+>
+  Test
+</button>
+`;

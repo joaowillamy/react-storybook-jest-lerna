@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Range Range 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  margin: 5px 0;
+}
+
+.c2 {
+  background: #18ACC4;
+  border-radius: 10px;
+  height: 4px;
+  margin: 15px 0;
+  outline: none;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  width: 100%;
+}
+
+.c2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  border: 2px solid #18ACC4;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+}
+
+.c2::-moz-range-thumb {
+  background: #fff;
+  border: 2px solid #18ACC4;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+}
+
+<div
+  className="c0"
+>
+  <p
+    className="c1"
+  >
+    R$ 10,000.00
+  </p>
+  <input
+    className="c2"
+    onChange={[Function]}
+    type="range"
+    value={10000}
+  />
+</div>
+`;

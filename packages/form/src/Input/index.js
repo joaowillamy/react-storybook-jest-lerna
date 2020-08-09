@@ -1,7 +1,7 @@
-import styled, { css } from 'styled-components';
-import React from 'react';
+import styled, { css } from "styled-components";
+import React from "react";
 // import { spacing } from '@joaowillamy-test-quero/theme';
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const StyledContainer = styled.div`
   width: 100%;
@@ -9,7 +9,7 @@ const StyledContainer = styled.div`
 
 const StyledLabel = styled.label`
   color: #868686;
-  font-family: 'Fira Sans';
+  font-family: "Fira Sans";
   font-size: 0.8rem;
   text-transform: uppercase;
 `;
@@ -34,7 +34,7 @@ const StyledInput = styled.input`
     color: #999;
   }
 
-  ${(props) =>
+  ${props =>
     props.disabled &&
     css`
       color: #999999;

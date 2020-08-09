@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
 export const Checkbox = styled.div`
   display: inline;
@@ -32,7 +32,7 @@ export const CheckboxInput = styled.input`
 
 export const CheckboxIcon = styled.div`
   background: ${({ isChecked, theme }) =>
-    isChecked ? theme.colors.bluePrimary : '#fff'};
+    isChecked ? theme.colors.bluePrimary : "#fff"};
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,6 @@ export const CheckboxIcon = styled.div`
   svg {
     margin-bottom: 1px;
     color: #fff;
-    visibility: ${({ isChecked }) =>
-      isChecked ? 'visible' : 'hidden'};
+    visibility: ${({ isChecked }) => (isChecked ? "visible" : "hidden")};
   }
 `;

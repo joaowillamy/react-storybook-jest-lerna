@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Select 1`] = `
+.c0 div {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+<div
+  className="c0"
+>
+  <div>
+    <div
+      className="react-dropdown-select undefined css-wmw4vi-ReactDropdownSelect e1gzf2xs0"
+      color="#0074D9"
+      direction="ltr"
+      disabled={false}
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex="0"
+    >
+      <div
+        className="react-dropdown-select-content react-dropdown-select-type-single css-v1jrxw-ContentComponent e1gn6jc30"
+        onClick={[Function]}
+      >
+        <input
+          className="react-dropdown-select-input css-1b6aba5-InputComponent e11wid6y0"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Selecione..."
+          readOnly={true}
+          size={12}
+          tabIndex="-1"
+          value=""
+        />
+      </div>
+      <div
+        className="react-dropdown-select-dropdown-handle css-1yc4zyy-DropdownHandleComponent e1vudypg0"
+        color="#0074D9"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyPress={[Function]}
+        rotate={1}
+        tabIndex="-1"
+      >
+        <svg
+          fill="currentColor"
+          viewBox="0 0 40 40"
+        >
+          <path
+            d="M31 26.4q0 .3-.2.5l-1.1 1.2q-.3.2-.6.2t-.5-.2l-8.7-8.8-8.8 8.8q-.2.2-.5.2t-.5-.2l-1.2-1.2q-.2-.2-.2-.5t.2-.5l10.4-10.4q.3-.2.6-.2t.5.2l10.4 10.4q.2.2.2.5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

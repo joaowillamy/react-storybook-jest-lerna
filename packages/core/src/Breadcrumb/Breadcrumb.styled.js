@@ -1,6 +1,6 @@
-import styled, { css } from 'styled-components';
+import styled from "styled-components";
 
-import { chooseScrem } from '../help/chooseScreem';
+import { chooseScrem } from "../help/chooseScreem";
 
 export const Breadcrumb = styled.div`
   margin: 10px 0;

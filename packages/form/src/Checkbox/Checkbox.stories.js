@@ -1,34 +1,34 @@
-import React from 'react';
-import { ThemeProvider } from '@joaowillamy-test-quero/theme';
-import { Card } from '@joaowillamy-test-quero/core';
+import React from "react";
+import { ThemeProvider } from "@joaowillamy-test-quero/theme";
+import { Card } from "@joaowillamy-test-quero/core";
 
-import Checkbox from '.';
+import Checkbox from ".";
 
 export default {
   component: Checkbox,
-  title: 'form|Checkbox'
+  title: "form|Checkbox"
 };
 
 export const checkbox = () => {
   return (
     <ThemeProvider>
-      <div style={{ width: '100px', display: 'inline-block' }}>
+      <div style={{ width: "100px", display: "inline-block" }}>
         <Checkbox
           label={<>oi</>}
-          name={'checkbox'}
+          name={"checkbox"}
           value={{ a: 2, b: [1, 2] }}
-          onChange={(data) => {
+          onChange={data => {
             console.log(data);
           }}
         />
       </div>
-      <div style={{ width: '100px', display: 'inline-block' }}>
+      <div style={{ width: "100px", display: "inline-block" }}>
         <Checkbox
           label={<>oi</>}
-          name={'checkbox'}
+          name={"checkbox"}
           isSelected={true}
           value={{ a: 2, b: [1, 2] }}
-          onChange={(data) => {
+          onChange={data => {
             console.log(data);
           }}
         />
@@ -46,9 +46,9 @@ export const checkboxElements = () => {
             <Card />
           </>
         }
-        name={'checkbox'}
+        name={"checkbox"}
         value={{ a: 2, b: [1, 2] }}
-        onChange={(data) => {
+        onChange={data => {
           console.log(data);
         }}
       />

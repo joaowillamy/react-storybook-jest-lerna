@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components';
-import media from 'styled-media-query';
+import styled, { css } from "styled-components";
+import media from "styled-media-query";
 
 export const Card = styled.div`
   padding: 10px;
@@ -28,7 +28,7 @@ export const Card = styled.div`
       }
     `}
 
-  ${media.greaterThan('medium')`
+  ${media.greaterThan("medium")`
     min-height: 200px;
     width: 23%;
     margin: 0 5px

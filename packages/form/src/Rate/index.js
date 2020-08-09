@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Icon } from '@joaowillamy-test-quero/core';
+import React from "react";
+import PropTypes from "prop-types";
+import { Icon } from "@joaowillamy-test-quero/core";
 
-import * as S from './Rate.styled';
+import * as S from "./Rate.styled";
 
 const Rate = ({ value }) => {
   const ARRAY_STARS = [1, 2, 3, 4, 5];
@@ -16,7 +16,7 @@ const Rate = ({ value }) => {
   return (
     <>
       <S.Rate>
-        {ARRAY_STARS.map((start) => {
+        {ARRAY_STARS.map(start => {
           return (
             <S.RateItem key={start}>
               <GetIcon start={start} />

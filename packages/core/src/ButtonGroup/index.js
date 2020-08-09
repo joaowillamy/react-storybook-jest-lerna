@@ -1,13 +1,13 @@
-import React, { useCallback, useState } from 'react';
-import PropTypes from 'prop-types';
+import React, { useCallback, useState } from "react";
+import PropTypes from "prop-types";
 
-import * as S from './ButtonGroup.styled';
+import * as S from "./ButtonGroup.styled";
 
 const ButtonGroup = ({ onChange, options, ...props }) => {
-  const [selected, setSelected] = useState('all');
+  const [selected, setSelected] = useState("all");
   const callbackOnChange = useCallback(onChange);
 
-  const changeSelectedOption = (option) => {
+  const changeSelectedOption = option => {
     setSelected(option);
     callbackOnChange && callbackOnChange(option);
   };

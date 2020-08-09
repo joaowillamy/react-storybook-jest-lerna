@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb primary 1`] = `
+.c4 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  margin: 10px 0;
+}
+
+.c1 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.c3 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.c2 {
+  color: #18ACC4;
+}
+
+.c2 svg {
+  width: 26px;
+}
+
+@media (max-width:768px) {
+  .c1 {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    display: none;
+  }
+}
+
+<div
+  className="c0"
+>
+  <p
+    className="c1"
+  >
+    <span
+      className="c2"
+    >
+       Home
+    </span>
+     /
+     
+    <span
+      className="c2"
+    >
+       Minha conta
+    </span>
+     / Bolsas favoritas
+  </p>
+  <p
+    className="c3"
+  >
+    <span
+      className="c2"
+    >
+      <svg
+        aria-hidden="true"
+        className="c4"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          data-name="Layer 2"
+        >
+          <path
+            d="M13.83 19a1 1 0 01-.78-.37l-4.83-6a1 1 0 010-1.27l5-6a1 1 0 011.54 1.28L10.29 12l4.32 5.36a1 1 0 01-.78 1.64z"
+            data-name="arrow-ios-back"
+          />
+        </g>
+      </svg>
+       Minha conta
+    </span>
+  </p>
+</div>
+`;

@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu Menu 1`] = `
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  background-color: #18ACC4;
+}
+
+.c3 {
+  display: inline-block;
+  padding: 15px;
+  font-weight: 600;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.c3:hover {
+  background-color: #007A8D;
+}
+
+.c3 svg {
+  width: 26px;
+  color: #fff;
+}
+
+.c4 {
+  display: inline-block;
+  padding: 15px;
+  font-weight: 600;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.c4:hover {
+  background-color: #007A8D;
+}
+
+.c4 svg {
+  width: 26px;
+  color: #fff;
+}
+
+.c5 {
+  display: inline-block;
+  padding: 15px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #007A8D;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.c5:hover {
+  background-color: #007A8D;
+}
+
+.c5 svg {
+  width: 26px;
+  color: #fff;
+}
+
+.c6 {
+  display: inline-block;
+  padding: 15px;
+  font-weight: 600;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.c6:hover {
+  background-color: #007A8D;
+}
+
+.c6 svg {
+  width: 26px;
+  color: #fff;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c4 {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .c5 {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    display: none;
+  }
+}
+
+<div
+  className="c0"
+>
+  <nav>
+    <div
+      className="c1"
+    >
+      <ul
+        className="c2"
+      >
+        <li
+          className="c3"
+        >
+          Minha conta
+        </li>
+        <li
+          className="c4"
+        >
+          Pré-matrículas
+        </li>
+        <li
+          className="c5"
+        >
+          Bolsas favoritas
+        </li>
+        <li
+          className="c6"
+        >
+          Menu 
+          <svg
+            aria-hidden="true"
+            className="c7"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              data-name="Layer 2"
+            >
+              <path
+                d="M12 16a1 1 0 01-.64-.23l-6-5a1 1 0 111.28-1.54L12 13.71l5.36-4.32a1 1 0 011.41.15 1 1 0 01-.14 1.46l-6 4.83A1 1 0 0112 16z"
+                data-name="arrow-ios-downward"
+              />
+            </g>
+          </svg>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+`;

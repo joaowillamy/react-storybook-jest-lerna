@@ -1,11 +1,11 @@
-import React from 'react';
-import { ThemeProvider } from '@joaowillamy-test-quero/theme';
+import React from "react";
+import { ThemeProvider } from "@joaowillamy-test-quero/theme";
 
-import Range from '.';
+import Range from ".";
 
 export default {
   component: Range,
-  title: 'form|Range'
+  title: "form|Range"
 };
 
 export const range = () => {
@@ -14,8 +14,8 @@ export const range = () => {
       <Range
         value={10000}
         maxRange={10000}
-        label={'ATÉ QUANTO PODE PAGAR?'}
-        onChange={(data) => {}}
+        label={"ATÉ QUANTO PODE PAGAR?"}
+        onChange={data => {}}
       />
     </ThemeProvider>
   );

@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Icon } from '../Icons';
+import React from "react";
+import PropTypes from "prop-types";
+import { Icon } from "../Icons";
 
-import { Container } from '../help/Container.styled';
-import * as S from './Menu.styled';
+import { Container } from "../help/Container.styled";
+import * as S from "./Menu.styled";
 
-const Menu = (props) => (
+const Menu = props => (
   <S.Menu {...props}>
     <nav>
       <Container>

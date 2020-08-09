@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import Input from '.';
+import Input from ".";
 
 export default {
   component: Input,
-  title: 'Form|Input'
+  title: "Form|Input"
 };
 
 export const placeholder = () => (
@@ -12,10 +12,5 @@ export const placeholder = () => (
 );
 
 export const disabled = () => (
-  <Input
-    disabled
-    id="email"
-    label="Email"
-    placeholder="user@gmail.com"
-  />
+  <Input disabled id="email" label="Email" placeholder="user@gmail.com" />
 );

@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import { StyledFontMontserrat } from './Font';
+import { createGlobalStyle } from "styled-components";
+import { StyledFontMontserrat } from "./Font";
 
 /* stylelint-disable */
 export const GlobalStyles = createGlobalStyle`

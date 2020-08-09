@@ -1,8 +1,8 @@
-import React, { useState, useCallback } from 'react';
-import PropTypes from 'prop-types';
-import { Icon } from '@joaowillamy-test-quero/core';
+import React, { useState, useCallback } from "react";
+import PropTypes from "prop-types";
+import { Icon } from "@joaowillamy-test-quero/core";
 
-import * as S from './Checkbox.styled';
+import * as S from "./Checkbox.styled";
 
 const Checkbox = ({ label, isSelected, value, name, onChange }) => {
   const [isChecked, setIsChecked] = useState(isSelected || false);

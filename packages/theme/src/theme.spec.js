@@ -1,17 +1,18 @@
-import DEFAULT_THEME from './theme';
+import DEFAULT_THEME from "./theme";
 
-describe('DEFAULT_THEME', () => {
-  test('matches snapshot', () => {
+describe("DEFAULT_THEME", () => {
+  test("matches snapshot", () => {
     expect({
       ...DEFAULT_THEME,
       shadows: {
-        sm: DEFAULT_THEME.shadows.sm(),
+        lg: DEFAULT_THEME.shadows.lg(),
         md: DEFAULT_THEME.shadows.md(),
-        lg: DEFAULT_THEME.shadows.lg()
+        sm: DEFAULT_THEME.shadows.sm()
       },
+      // eslint-disable-next-line sort-keys
       borders: {
-        sm: DEFAULT_THEME.borders.sm(),
-        md: DEFAULT_THEME.borders.md()
+        md: DEFAULT_THEME.borders.md(),
+        sm: DEFAULT_THEME.borders.sm()
       }
     }).toMatchSnapshot();
   });

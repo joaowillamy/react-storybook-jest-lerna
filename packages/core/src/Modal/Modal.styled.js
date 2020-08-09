@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import media from 'styled-media-query';
+import styled from "styled-components";
+import media from "styled-media-query";
 
 export const ModalBackground = styled.div`
   position: fixed;
@@ -20,7 +20,7 @@ export const ModalBox = styled.div`
   max-height: 70vh;
   padding-bottom: 20px;
 
-  ${media.greaterThan('medium')`
+  ${media.greaterThan("medium")`
     width: 70%;
   `}
 `;

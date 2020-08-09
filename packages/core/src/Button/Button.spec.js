@@ -1,19 +1,30 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import 'jest-styled-components';
+import React from "react";
+import renderer from "react-test-renderer";
+import "jest-styled-components";
+import { ThemeProvider } from "@joaowillamy-test-quero/theme";
 
-import Button from '.';
+import Button from ".";
 
-describe('Button', () => {
-  test('primary', () => {
-    const tree = renderer.create(<Button>{'Test'}</Button>).toJSON();
+describe("Button", () => {
+  test("primary", () => {
+    const tree = renderer
+      .create(
+        <ThemeProvider>
+          <Button>{"Test"}</Button>
+        </ThemeProvider>
+      )
+      .toJSON();
 
     expect(tree).toMatchSnapshot();
   });
 
-  test('secondary', () => {
+  test("secondary", () => {
     const tree = renderer
-      .create(<Button variant="secondary">{'Test'}</Button>)
+      .create(
+        <ThemeProvider>
+          <Button variant="secondary">{"Test"}</Button>
+        </ThemeProvider>
+      )
       .toJSON();
 
     expect(tree).toMatchSnapshot();

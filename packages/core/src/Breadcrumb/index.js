@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 
-import { Icon } from '../Icons';
+import { Icon } from "../Icons";
 
-import * as S from './Breadcrumb.styled';
+import * as S from "./Breadcrumb.styled";
 
-const Breadcrumb = (props) => {
+const Breadcrumb = props => {
   return (
     <S.Breadcrumb {...props}>
       <S.BreadcrumbText justDesktop>
-        <S.BreadcrumbTextBlue> Home</S.BreadcrumbTextBlue> /{' '}
-        <S.BreadcrumbTextBlue> Minha conta</S.BreadcrumbTextBlue> /
-        Bolsas favoritas
+        <S.BreadcrumbTextBlue> Home</S.BreadcrumbTextBlue> /{" "}
+        <S.BreadcrumbTextBlue> Minha conta</S.BreadcrumbTextBlue> / Bolsas
+        favoritas
       </S.BreadcrumbText>
       <S.BreadcrumbText justMobile>
         <S.BreadcrumbTextBlue>
