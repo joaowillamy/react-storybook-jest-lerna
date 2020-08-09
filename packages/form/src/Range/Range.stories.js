@@ -12,7 +12,8 @@ export const range = () => {
   return (
     <ThemeProvider>
       <Range
-        value={100}
+        value={10000}
+        maxRange={10000}
         label={'ATÉ QUANTO PODE PAGAR?'}
         onChange={(data) => {}}
       />
