@@ -1,5 +1,7 @@
 # Monorepo with Lerna to Design System
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a2f69fbed9444b99a2c593d77d7b794c)](https://app.codacy.com/manual/joaowillamy/react-storybook-jest-lerna?utm_source=github.com&utm_medium=referral&utm_content=joaowillamy/react-storybook-jest-lerna&utm_campaign=Badge_Grade_Dashboard)
+
 make with love <3
 
 ## See the project working
