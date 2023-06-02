@@ -19,11 +19,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/joaowillamy/react-storybook-jest-lerna.svg">
 </p>
 
-## See the project working
 
-- 🚀 [[LIVE] - Features](http://features.frontend.quero.s3-website.us-east-2.amazonaws.com/)
-
-- 📝 [[DOCUMENTATION] - Design system](http://designsystem.frontend.quero.s3-website.us-east-2.amazonaws.com/?path=/docs/core-button--primary)
 
 ## Important!!!
 
