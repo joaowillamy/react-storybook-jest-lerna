@@ -59,7 +59,7 @@
     "react-test-renderer": "^16.12.0",
     "styled-components": "^5.0.1",
     "styled-media-query": "^2.1.2",
-    "stylelint": "12.0.1",
+    "stylelint": "15.10.1",
     "stylelint-config-get-off-my-lawn": "^2.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0",
